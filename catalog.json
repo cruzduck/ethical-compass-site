@@ -1,5 +1,5 @@
 {
-  "catalogVersion": 2,
+  "catalogVersion": 3,
   "minimumAppVersion": "1.0",
   "guides": [
     {
@@ -5391,6 +5391,11 @@
     "Energy Drinks": "October 2026",
     "Juice & Dried Fruit": "October 2026",
     "Canned & Frozen Vegetables": "October 2026",
-    "Seafood": "October 2026"
+    "Seafood": "October 2026",
+    "Smartphones": "October 2026",
+    "Water Bottles": "October 2026",
+    "Household Cleaners": "October 2026",
+    "Shopping Bags": "October 2026",
+    "Clothing": "October 2026"
   }
 }
