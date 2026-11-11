@@ -1,5 +1,5 @@
 {
-  "catalogVersion": 3,
+  "catalogVersion": 4,
   "minimumAppVersion": "1.0",
   "guides": [
     {
@@ -1068,6 +1068,230 @@
           "carbonFootprint": 2.2,
           "waterUsage": 1000,
           "cost": "High",
+          "lifespan": "Pantry, months",
+          "overallRating": "Avoid if Possible"
+        }
+      ]
+    },
+    {
+      "id": "sauces-and-condiments",
+      "name": "Sauces & Condiments",
+      "category": "Food",
+      "descriptionText": "The small bottles with the big sodium and sugar numbers — and the packaging you throw away every few weeks.",
+      "buyingAdvice": "Read the first two ingredients: a sauce that starts with tomato, peppers, or vinegar is a different food from one that starts with sugar or high-fructose corn syrup.\nGlass jars beat plastic squeeze bottles — they recycle cleanly, and you can see how much is actually left.\nA spoonful is the serving. Mustard, hot sauce, and soy sauce barely register on any footprint at the amounts people use; mayonnaise and sugary barbecue sauce are the ones where the bottle adds up.\nSalsa and tomato sauce are the easy wins in this aisle: short ingredient lists, real vegetables first, no sugar needed.",
+      "whatMattersMost": "Sugar and sodium first (health), then packaging — small bottles, used up fast, mostly plastic. The carbon footprint per kilo is small; what is in the bottle is the story.",
+      "commonPitfalls": "Assuming ‘dressing’ means salad-healthy — a creamy ranch-style dressing can carry more sugar and oil per serving than the salad it goes on. And ‘honey mustard’ is usually mustard-flavored sugar.",
+      "searchTerms": "sauce,salsa,mayonnaise,dressing,ketchup,mustard,condiment",
+      "icon": "fork.knife.circle",
+      "sortOrder": 18,
+      "keyTypes": [
+        {
+          "id": "sauces-and-condiments--simple-tomato-sauce-and-salsa",
+          "name": "Simple Tomato Sauce & Salsa",
+          "descriptionText": "Jarred marinara and salsa with short ingredient lists: tomato or peppers first, no added sugar. The easy win in this aisle.",
+          "ecologicalScore": 68,
+          "ethicalScore": 65,
+          "socialScore": 65,
+          "carbonFootprint": 1.2,
+          "waterUsage": 800,
+          "cost": "Low",
+          "lifespan": "Pantry, months",
+          "overallRating": "Best Choice"
+        },
+        {
+          "id": "sauces-and-condiments--vinaigrette-dressings",
+          "name": "Vinaigrette Dressings",
+          "descriptionText": "Oil-and-vinegar dressings, store-bought or made at home. Simple ingredients, glass bottle if you can find it.",
+          "ecologicalScore": 65,
+          "ethicalScore": 60,
+          "socialScore": 60,
+          "carbonFootprint": 1.5,
+          "waterUsage": 600,
+          "cost": "Medium",
+          "lifespan": "Pantry, months",
+          "overallRating": "Acceptable Alternative"
+        },
+        {
+          "id": "sauces-and-condiments--mayonnaise-and-creamy-dressings",
+          "name": "Mayonnaise & Creamy Dressings",
+          "descriptionText": "Mayo, ranch, and creamy dressings: mostly oil, salt, and packaging. Fine in small amounts; the bottle is the footprint.",
+          "ecologicalScore": 45,
+          "ethicalScore": 45,
+          "socialScore": 50,
+          "carbonFootprint": 2.0,
+          "waterUsage": 900,
+          "cost": "Low",
+          "lifespan": "Refrigerated, months",
+          "overallRating": "Acceptable Alternative"
+        },
+        {
+          "id": "sauces-and-condiments--mustard-hot-sauce-and-soy-sauce",
+          "name": "Mustard, Hot Sauce & Soy Sauce",
+          "descriptionText": "Small-serving pantry condiments. The amounts people use are tiny, so even the imported soy sauce barely registers — the salt is the only real caveat.",
+          "ecologicalScore": 60,
+          "ethicalScore": 58,
+          "socialScore": 58,
+          "carbonFootprint": 1.0,
+          "waterUsage": 500,
+          "cost": "Low",
+          "lifespan": "Pantry, months",
+          "overallRating": "Acceptable Alternative"
+        },
+        {
+          "id": "sauces-and-condiments--sugary-sauces",
+          "name": "Sugary Sauces",
+          "descriptionText": "Barbecue sauce, ketchup, and sweet chili sauce where sugar is the first or second ingredient. The serving is a tablespoon, so this is a nudge, not a ban — but the sugar load is real.",
+          "ecologicalScore": 38,
+          "ethicalScore": 40,
+          "socialScore": 42,
+          "carbonFootprint": 1.8,
+          "waterUsage": 700,
+          "cost": "Low",
+          "lifespan": "Pantry, months",
+          "overallRating": "Avoid if Possible"
+        }
+      ]
+    },
+    {
+      "id": "snacks",
+      "name": "Snacks",
+      "category": "Food",
+      "descriptionText": "Chips, nuts, and popcorn — where the frying oil and the unrecyclable bag matter more than the food inside.",
+      "buyingAdvice": "Popcorn is the outlier: a whole grain you can buy in bulk and pop yourself, for pennies, with no bag at all.\nCheck the frying oil on chips — palm oil is the common one, and its sourcing is usually unstated. Sunflower or avocado oil is the better sign.\nNuts are the healthiest thing in this aisle and the thirstiest: almonds in particular drink a lot of California water. Buy unsalted, buy in bulk, and treat them as the premium pick they are.\nThe bag is the giveaway: multi-layer metallized chip bags are not recyclable curbside anywhere. A snack in a paper bag or a bulk bin skips the whole problem.",
+      "whatMattersMost": "Frying oil (palm oil sourcing) and packaging (unrecyclable multi-layer bags) first, then processing. The food itself is a small footprint; the bag and the oil are the story.",
+      "commonPitfalls": "Assuming ‘veggie chips’ or ‘banana chips’ are the healthy pick — they are usually fried, salted, and packaged exactly like potato chips. (The matcher already sends veggie chips to Canned & Frozen Vegetables and banana chips to Juice & Dried Fruit, and this guide does not steal those.)",
+      "searchTerms": "snacks,chips,popcorn,nuts,crackers,pretzels",
+      "icon": "popcorn.fill",
+      "sortOrder": 19,
+      "keyTypes": [
+        {
+          "id": "snacks--air-popped-popcorn",
+          "name": "Air-Popped Popcorn",
+          "descriptionText": "Whole-grain popcorn, popped at home from bulk kernels. Pennies a serving, no bag, no frying oil.",
+          "ecologicalScore": 78,
+          "ethicalScore": 70,
+          "socialScore": 70,
+          "carbonFootprint": 0.8,
+          "waterUsage": 900,
+          "cost": "Low",
+          "lifespan": "Pantry, months",
+          "overallRating": "Best Choice"
+        },
+        {
+          "id": "snacks--nuts-and-seeds",
+          "name": "Nuts & Seeds",
+          "descriptionText": "Unsalted nuts and seeds, ideally bought in bulk. The healthiest snack here and the thirstiest to grow — almonds most of all.",
+          "ecologicalScore": 62,
+          "ethicalScore": 65,
+          "socialScore": 65,
+          "carbonFootprint": 1.5,
+          "waterUsage": 5000,
+          "cost": "High",
+          "lifespan": "Pantry, months",
+          "overallRating": "Acceptable Alternative"
+        },
+        {
+          "id": "snacks--crackers-and-pretzels",
+          "name": "Crackers & Pretzels",
+          "descriptionText": "Baked, not fried, and usually in simpler packaging than chips. Still processed and salted; the plain versions beat the flavored ones.",
+          "ecologicalScore": 50,
+          "ethicalScore": 50,
+          "socialScore": 55,
+          "carbonFootprint": 1.6,
+          "waterUsage": 1000,
+          "cost": "Low",
+          "lifespan": "Pantry, months",
+          "overallRating": "Acceptable Alternative"
+        },
+        {
+          "id": "snacks--potato-and-tortilla-chips",
+          "name": "Potato & Tortilla Chips",
+          "descriptionText": "The classic chip: fried in oil (often palm, usually unstated) and sold in unrecyclable metallized bags.",
+          "ecologicalScore": 40,
+          "ethicalScore": 42,
+          "socialScore": 45,
+          "carbonFootprint": 2.2,
+          "waterUsage": 1000,
+          "cost": "Low",
+          "lifespan": "Pantry, weeks",
+          "overallRating": "Acceptable Alternative"
+        },
+        {
+          "id": "snacks--flavored-and-coated-snacks",
+          "name": "Flavored & Coated Snacks",
+          "descriptionText": "Cheese puffs, flavored chips, yogurt-coated pretzels. The most processed, the most packaged, and the least food per bag.",
+          "ecologicalScore": 30,
+          "ethicalScore": 35,
+          "socialScore": 38,
+          "carbonFootprint": 2.5,
+          "waterUsage": 1200,
+          "cost": "Low",
+          "lifespan": "Pantry, weeks",
+          "overallRating": "Avoid if Possible"
+        }
+      ]
+    },
+    {
+      "id": "soup",
+      "name": "Soup",
+      "category": "Food",
+      "descriptionText": "Mostly water, salt, and a container — the differences are the sodium, the can, and whether you made it yourself.",
+      "buyingAdvice": "Homemade soup is the whole guide in one line: you control the salt, the ingredients, and the packaging, and it costs less.\nIf you buy canned, read the sodium per serving first — a single can often holds two servings at 800 mg each. Low-sodium versions exist for most flavors.\nBroth and stock are mostly shipped water in a carton. They are low-impact per kilo, but a carton of water is still a carton — make stock from scraps when you can.\nInstant soup cups are the worst of this aisle: palm-oil noodles, a salt bomb, and a single-use cup. A packet of dried soup mix is the same idea with far less packaging.",
+      "whatMattersMost": "Sodium first (health), then packaging — steel cans, cartons, and single-use cups. The ingredients are mostly vegetables and water; the container is the footprint.",
+      "commonPitfalls": "Counting a can as one serving — the label usually says two, and the sodium doubles with it. And ‘organic’ on a canned soup says nothing about the salt.",
+      "searchTerms": "soup,chili,stew,broth,stock,minestrone,chowder",
+      "icon": "cup.and.saucer.fill",
+      "sortOrder": 20,
+      "keyTypes": [
+        {
+          "id": "soup--homemade-and-fresh-soup",
+          "name": "Homemade & Fresh Soup",
+          "descriptionText": "Soup you made, or a fresh refrigerated soup from a deli counter. You control the salt and the ingredients; the only packaging is the pot or the tub.",
+          "ecologicalScore": 75,
+          "ethicalScore": 70,
+          "socialScore": 72,
+          "carbonFootprint": 1.0,
+          "waterUsage": 800,
+          "cost": "Medium",
+          "lifespan": "Days",
+          "overallRating": "Best Choice"
+        },
+        {
+          "id": "soup--broth-and-stock",
+          "name": "Broth & Stock",
+          "descriptionText": "Cartons of broth and stock, ideally low-sodium. Mostly water, so the footprint per kilo is small — but you are buying shipped water.",
+          "ecologicalScore": 68,
+          "ethicalScore": 62,
+          "socialScore": 60,
+          "carbonFootprint": 0.6,
+          "waterUsage": 500,
+          "cost": "Low",
+          "lifespan": "Pantry, months",
+          "overallRating": "Best Choice"
+        },
+        {
+          "id": "soup--canned-ready-to-eat-soup",
+          "name": "Canned Ready-to-Eat Soup",
+          "descriptionText": "The familiar can: long shelf life, steel packaging, and usually a lot of sodium. The workhorse of this guide.",
+          "ecologicalScore": 48,
+          "ethicalScore": 50,
+          "socialScore": 52,
+          "carbonFootprint": 1.4,
+          "waterUsage": 900,
+          "cost": "Low",
+          "lifespan": "Pantry, years",
+          "overallRating": "Acceptable Alternative"
+        },
+        {
+          "id": "soup--dried-and-instant-soup-cups",
+          "name": "Dried & Instant Soup Cups",
+          "descriptionText": "Instant noodle cups and dried soup packets: palm-oil noodles, a salt bomb, and a single-use cup.",
+          "ecologicalScore": 32,
+          "ethicalScore": 38,
+          "socialScore": 40,
+          "carbonFootprint": 2.0,
+          "waterUsage": 700,
+          "cost": "Low",
           "lifespan": "Pantry, months",
           "overallRating": "Avoid if Possible"
         }
@@ -3953,6 +4177,10 @@
         "lentil",
         "meat",
         "poultry"
+      ],
+      "blockedBy": [
+        "soup",
+        "broth"
       ]
     },
     {
@@ -4068,7 +4296,9 @@
         "smoothie",
         "cider",
         "wine",
-        "beer"
+        "beer",
+        "broth",
+        "soup"
       ]
     },
     {
@@ -4145,7 +4375,8 @@
       ],
       "phraseBlocks": {
         "cereal": [
-          "bread"
+          "bread",
+          "potato"
         ]
       }
     },
@@ -4265,6 +4496,66 @@
         "fermented vegetable",
         "pinto beans",
         "canned beans"
+      ]
+    },
+    {
+      "guide": "Sauces & Condiments",
+      "phrases": [
+        "tomato sauce",
+        "salsa",
+        "mayonnaise",
+        "mayo",
+        "salad dressing",
+        "dressing",
+        "vinaigrette",
+        "honey mustard",
+        "relish",
+        "sweet relish",
+        "ketchup",
+        "mustard",
+        "hot sauce",
+        "soy sauce",
+        "barbecue sauce",
+        "bbq sauce",
+        "stir fry sauce",
+        "sauce"
+      ]
+    },
+    {
+      "guide": "Snacks",
+      "phrases": [
+        "potato chips",
+        "corn chips",
+        "tortilla chips",
+        "chips",
+        "crisps",
+        "snacks",
+        "peanut",
+        "nuts",
+        "popcorn",
+        "cracker",
+        "pretzel",
+        "trail mix"
+      ]
+    },
+    {
+      "guide": "Soup",
+      "phrases": [
+        "soup",
+        "tomato soup",
+        "vegetable soup",
+        "chicken soup",
+        "lentil soup",
+        "beef soup",
+        "minestrone",
+        "chowder",
+        "bisque",
+        "broth",
+        "vegetable broth",
+        "chicken broth",
+        "beef broth",
+        "stew",
+        "chili"
       ]
     },
     {
@@ -5378,6 +5669,54 @@
         "detail": "“Biodegradable” and “compostable” claims. Menstrual products with blood are not accepted by ordinary city compost programs.",
         "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-B/part-260/section-260.7"
       }
+    ],
+    "Sauces & Condiments": [
+      {
+        "name": "Environmental Working Group — Food Scores",
+        "detail": "EWG’s nutrition, ingredient, and processing concern scores are the methodology this guide’s health ranking follows.",
+        "url": "https://www.ewg.org/foodscores/"
+      },
+      {
+        "name": "American Heart Association — sodium in condiments",
+        "detail": "Their sodium guidance is the basis for the salt warnings in this guide; sauces and dressings are a quiet source of daily sodium."
+      },
+      {
+        "name": "Our World in Data — environmental impacts of food",
+        "detail": "Readable summary of Poore & Nemecek (Science, 2018), the large comparison of greenhouse gases, land, and water across foods. Beef and dairy sit far above chicken and plants.",
+        "url": "https://ourworldindata.org/environmental-impacts-of-food"
+      }
+    ],
+    "Snacks": [
+      {
+        "name": "World Wildlife Fund — palm oil",
+        "detail": "Palm yields a lot of oil per acre, which is why it is cheap and why clearing tropical forest and peat for it is so damaging.",
+        "url": "https://www.worldwildlife.org/industries/palm-oil"
+      },
+      {
+        "name": "Environmental Working Group — Food Scores",
+        "detail": "EWG’s nutrition, ingredient, and processing concern scores are the methodology this guide’s health ranking follows.",
+        "url": "https://www.ewg.org/foodscores/"
+      },
+      {
+        "name": "Flexible snack packaging — recycling",
+        "detail": "Multi-layer chip bags combine plastic and metal films and are not recyclable curbside."
+      }
+    ],
+    "Soup": [
+      {
+        "name": "Our World in Data — environmental impacts of food",
+        "detail": "Readable summary of Poore & Nemecek (Science, 2018), the large comparison of greenhouse gases, land, and water across foods. Beef and dairy sit far above chicken and plants.",
+        "url": "https://ourworldindata.org/environmental-impacts-of-food"
+      },
+      {
+        "name": "Environmental Working Group — Food Scores",
+        "detail": "EWG’s nutrition, ingredient, and processing concern scores are the methodology this guide’s health ranking follows.",
+        "url": "https://www.ewg.org/foodscores/"
+      },
+      {
+        "name": "Canned food linings — BPA alternatives",
+        "detail": "Most US can makers have moved away from BPA linings, but replacement linings vary and are rarely disclosed; the reason this guide flags the can rather than ranking on it."
+      }
     ]
   },
   "lastReviewed": {
@@ -5396,6 +5735,9 @@
     "Water Bottles": "October 2026",
     "Household Cleaners": "October 2026",
     "Shopping Bags": "October 2026",
-    "Clothing": "October 2026"
+    "Clothing": "October 2026",
+    "Sauces & Condiments": "November 2026",
+    "Snacks": "November 2026",
+    "Soup": "November 2026"
   }
 }
